@@ -1,0 +1,42 @@
+[push]
+	autosetupremote = true
+	followTags = true
+	default = simple
+[init]
+	defaultBranch = main
+[rebase]
+	updateRefs = true
+	missingCommitsCheck = error
+	autoSquash = true
+	autoStash = true
+[gpg]
+	format = ssh
+[rerere]
+	enabled = true
+	autoupdate = true
+[credential]
+	helper = osxkeychain
+[branch]
+	sort = -comitterdate
+[pull]
+	rebase = true
+[merge]
+	conflictStyle = zdiff3
+[merge "pnpm-merge-driver"]
+	name = automatically merge npm lockfiles
+	driver = pnpm-merge-driver %A %O %B %P
+[column]
+	ui = auto
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicprefix = true
+	renames = true
+[fetch]
+	all = true
+	prune = true
+	pruneTags = true
+[help]
+	autocorrect = prompt
+[commit]
+	verbose = true

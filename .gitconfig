@@ -17,7 +17,7 @@
 [credential]
 	helper = osxkeychain
 [branch]
-	sort = -comitterdate
+	sort = -committerdate
 [pull]
 	rebase = true
 [merge]

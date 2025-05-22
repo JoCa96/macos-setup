@@ -1,0 +1,8 @@
+==> Formulae
+fnm
+git
+pnpm
+
+==> Casks
+vscodium
+warp

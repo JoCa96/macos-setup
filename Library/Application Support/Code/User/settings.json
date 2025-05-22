@@ -1,0 +1,73 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "accessibility.signalOptions.volume": 0,
+    "chat.commandCenter.enabled": false,
+    "cSpell.userWords": [
+        "buildpack",
+        "nuxt",
+        "schwarz",
+        "stackit"
+    ],
+    "debug.javascript.autoAttachFilter": "disabled",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "git.blame.editorDecoration.enabled": true,
+    "git.confirmSync": false,
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "playwright.reuseBrowser": true,
+    "playwright.runGlobalSetupOnEachRun": false,
+    "playwright.updateSnapshots": "all",
+    "playwright.updateSourceMethod": "overwrite",
+    "redhat.telemetry.enabled": false,
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "connectionId": "https-sonarqube-schwarz-",
+            "serverUrl": "https://sonarqube.schwarz"
+        }
+    ],
+    "tabnine.cloudHost": "https://tabnine.stackit.run",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "update.showReleaseNotes": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    }
+}

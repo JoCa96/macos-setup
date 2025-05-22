@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias p=pnpm
+alias code=codium
 
 # git
 alias gf="git push --force-with-lease --force-if-includes"

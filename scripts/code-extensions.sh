@@ -4,7 +4,7 @@ function save() {
     code --list-extensions >"./data/code-extensions.txt"
 }
 
-function install() {
+function load() {
     cat ./data/code-extensions.txt | xargs -L 1 echo code --install-extension
 }
 
